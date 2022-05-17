@@ -38,7 +38,7 @@ spec:
             name: db2-lb
             type: LoadBalancer
             port: 50000
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+  syncPolicy: {}
+    # automated:
+    #   prune: true
+    #   selfHeal: true
