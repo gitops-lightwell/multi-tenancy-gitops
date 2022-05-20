@@ -288,7 +288,7 @@ spec:
     #         suspend: false
     #         successfulJobsHistoryLimit: 3
     #         failedJobsHistoryLimit: 1
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+  syncPolicy: {}
+    # automated:
+    #   prune: true
+    #   selfHeal: true
