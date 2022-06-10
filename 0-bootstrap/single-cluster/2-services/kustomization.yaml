@@ -60,7 +60,7 @@ resources:
 - argocd/instances/ibm-sfg-b2bi.yaml
 
 # Lightwell Framework
-- argocd/instances/lightwell-framework.yaml
+#- argocd/instances/lightwell-framework.yaml
 
 # Required for IBM MQ
 #- argocd/instances/openldap.yaml
